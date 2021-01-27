@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>To Do List!</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
+  </head>
+  <div class="titleClass" >
+    <h1 id="title">To Do List!</h1>
+  </div>
+  
+<body style="background-color:  #293462;">
+<!-- form -->
+
+<div class="container" id="formCon">
+  <div class="row">
+    <div class="col-md-6">
+     <form>
+        <div class="column" id="formText">
+            <label for="fname">Name:</label><br>
+            <input type="text" class="form-control" placeholder="John Smith" id="name">
+          
+            <label for="assigned">Assigned To:</label><br>
+            <input type="text" class="form-control" placeholder="Emma Smith" id="assignedTo">
+
+            <label for="description">Description:</label><br>
+            <input type="textarea" class="form-control" placeholder="Attend Meeting" id="description">
+              
+            <label for="fname">Due Date:</label><br>
+            <input type="date" class="form-control" id="date">
+          
+          <div class="form-group">
+            <label for="inputState">Status:</label><br>
+            <select class="form-control" id="status">
+              <option selected>Choose...</option>
+              <option value="To Do">To Do</option>
+              <option value="In Progress">In Progress</option>
+              <option value="Review">Review</option>
+              <option value="Done">Done</option>
+            </select>
+          </div>
+        </div>
+
+
+        <button type="button" class="btn btn-primary" id="btnAdd">Add</button>
+        <!-- <div class="alert alert-primary alert-dismissible fade show" role="alert" id="alert">
+          <strong>Error!</strong> You should check in on some of those fields above.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> -->
+        
+     </form>
+    </div>
+      <div class="list-group col-md-6" id="taskList">
+      </div>   
+  </div>
+</div>
+
+
+<!-- list -->
+
+  <!-- list -->
+
+<!-- cards -->
+<h1 class="text-center header1">Current Tasks</h1>
+<div class="container" >
+   <div class="row" id="taskCon"></div>
+</div>
+
+<!-- cards -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app2.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,82 @@
+.h1{
+    font-family: 'Roboto Slab';
+}
+
+.header1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titleClass{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+body{
+    width: 100%;
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Roboto Slab', sans-serif; 
+}
+
+/* ------------ container ------------ */
+.container{
+    padding:10px;
+}
+
+#formCon{
+    border: solid;
+    border-color:#36d1dc;
+    background-color:#3e64ff;
+}
+
+#taskCon{
+    border: solid;
+    border-color:#36d1dc;
+    background-color:#3e64ff;
+}
+
+/* ------------ header ------------ */
+head{
+    width: 380px;
+    height:200px;
+    background-image: url('images/pexels-photo-167699.jpeg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    font-family: 'Roboto Slab';
+}
+
+.card-header{
+    text-align: center;
+    width:auto;
+    height:auto;
+    padding: 15px;
+    margin: 20 20px 20 20px;
+  }
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .list-group-item{
+    font-weight: 500;
+}
+
+#cardHeader{
+    font-weight: 750;
+}
+
+#formText{
+    font-weight: 500;
+} */
+
+#alert{
+   margin-top: 20px;
+}
+
